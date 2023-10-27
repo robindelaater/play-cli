@@ -1,0 +1,22 @@
+{
+  "name": "robindelaater/php-cli",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Robindelaater\\PhpCli\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Robin de Laater",
+      "email": "robin.delaater@shopmonkey.nl"
+    }
+  ],
+  "require": {
+    "symfony/console": "^6.3",
+    "php": "^8.0"
+  },
+  "bin": [
+    "bin/demo"
+  ]
+}
